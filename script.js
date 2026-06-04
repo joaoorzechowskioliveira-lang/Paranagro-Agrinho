@@ -1,34 +1,34 @@
 // Base de Dados Estruturada para Componentes (Array de Objetos)
 const mapaDados = {
-    cascavel: {
+    oeste: {
         titulo: "Cascavel e Região Oeste",
         cultura: "Soja, Milho e Avicultura",
         vbp: "R$ 22.4 Bilhões",
         logistica: "Acesso direto à Ferroeste e BR-277",
         descricao: "Polo tecnológico de alta produtividade global, referência nacional em cooperativismo de grande porte e integração de cadeias de proteína animal."
     },
-    londrina: {
+    norte: {
         titulo: "Londrina e Região Norte",
         cultura: "Milho, Soja e Cafés Especiais",
         vbp: "R$ 14.8 Bilhões",
         logistica: "Entroncamento rodoferroviário estratégico para SP",
         descricao: "Berço histórico do desenvolvimento agrícola do estado, hoje focado fortemente em tecnologia de bioinsumos e agtechs digitais."
     },
-    maringa: {
+    noroeste: {
         titulo: "Maringá e Região Noroeste",
         cultura: "Mandioca, Cana-de-açúcar e Grãos",
         vbp: "R$ 16.1 Bilhões",
         logistica: "Conexão direta com o Noroeste Paulista",
         descricao: "Diversificação agrícola de destaque com altíssimo grau de industrialização e agregação de valor local de produtos derivados."
     },
-    pontagrossa: {
+    camposgerais: {
         titulo: "Ponta Grossa (Campos Gerais)",
         cultura: "Trigo, Cevada e Soja",
         vbp: "R$ 19.5 Bilhões",
         logistica: "Fácil escoamento para o Porto de Paranaguá",
         descricao: "Liderança absoluta em produtividade de safras de inverno e parque agroindustrial altamente tecnificado de processamento de óleos."
     },
-    guarapuava: {
+    centrosul: {
         titulo: "Guarapuava e Centro-Sul",
         cultura: "Cevada, Batata e Malte",
         vbp: "R$ 12.3 Bilhões",

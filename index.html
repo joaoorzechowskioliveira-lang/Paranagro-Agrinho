@@ -100,26 +100,26 @@
             <div class="map-layout">
                 <div class="map-container">
                     <svg id="parana-map" viewBox="0 0 800 450" width="135%" height="auto" aria-label="Mapa do Paraná com polos clicáveis">
-                        <image href="./img/parana.png" x="-90" y="0" width="800" height="450" class="map-region"/>
-                        <image href="./img/oeste.png" x="-90" y="0" width="800" height="450" class="map-region"/>
-                        <image href="./img/norte.png" x="-90" y="0" width="800" height="450" class="map-region"/>
-                        <image href="./img/noroeste.png" x="-90" y="0" width="800" height="450" class="map-region"/>
-                        <image href="./img/camposgerais.png" x="-90" y="0" width="800" height="450" class="map-region"/>
-                        <image href="./img/sul.png" x="-90" y="0" width="800" height="450"/>
+                        <image href="./img/parana.png" x="-90" y="0" width="800" height="450"/>
+                        <image id="region-oeste" href="./img/oeste.png" x="-90" y="0" width="800" height="450" class="map-region"/>
+                        <image id="region-norte" href="./img/norte.png" x="-90" y="0" width="800" height="450" class="map-region"/>
+                        <image id="region-noroeste" href="./img/noroeste.png" x="-90" y="0" width="800" height="450" class="map-region"/>
+                        <image id="region-camposgerais" href="./img/camposgerais.png" x="-90" y="0" width="800" height="450" class="map-region"/>
+                        <image id="region-centrosul" href="./img/sul.png" x="-90" y="0" width="800" height="450"  class="map-region"/>
 
-                        <circle cx="100" cy="270" r="10" class="map-marker" data-region="cascavel" />
+                        <circle cx="100" cy="270" r="10" class="map-marker" data-region="oeste" />
                         <text x="100" y="295" class="map-label">Oeste</text>
 
-                        <circle cx="285" cy="140" r="10" class="map-marker" data-region="londrina" />
+                        <circle cx="285" cy="140" r="10" class="map-marker" data-region="norte" />
                         <text x="285" y="165" class="map-label">Norte</text>
 
-                        <circle cx="160" cy="165" r="10" class="map-marker" data-region="maringa" />
+                        <circle cx="160" cy="165" r="10" class="map-marker" data-region="noroeste" />
                         <text x="160" y="190" class="map-label">Noroeste</text>
 
-                        <circle cx="460" cy="240" r="10" class="map-marker" data-region="pontagrossa" />
+                        <circle cx="460" cy="240" r="10" class="map-marker" data-region="camposgerais" />
                         <text x="460" y="265" class="map-label">Campos Gerais</text>
 
-                        <circle cx="290" cy="320" r="10" class="map-marker" data-region="guarapuava" />
+                        <circle cx="290" cy="320" r="10" class="map-marker" data-region="centrosul" />
                         <text x="290" y="345" class="map-label">Centro-Sul</text>
                     </svg>
                 </div>
