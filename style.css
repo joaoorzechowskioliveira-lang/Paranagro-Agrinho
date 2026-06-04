@@ -338,7 +338,6 @@ body.high-contrast a, body.high-contrast button {
 
 .map-marker:hover {
     fill: var(--primary);
-    transform-origin: center;
 }
 
 .map-marker.active {
