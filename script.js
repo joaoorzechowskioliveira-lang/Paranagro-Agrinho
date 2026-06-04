@@ -71,7 +71,7 @@ function atualizarPainel(idRegiao) {
         document.getElementById('info-title').innerText = dados.titulo;
         document.getElementById('info-culture').innerText = dados.cultura;
         document.getElementById('info-vbp').innerText = dados.vbp;
-        document.getElementById('info-logistics').innerText = dados.logistica;
+        document.getElementById('info-logistica').innerText = dados.logistica;
         document.getElementById('info-description').innerText = dados.descricao;
         
         // Sincronizar classes ativas visuais
