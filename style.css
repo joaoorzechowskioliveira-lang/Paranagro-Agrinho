@@ -315,14 +315,6 @@ body.high-contrast a, body.high-contrast button {
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }
-.map-region:hover {
-    cursor: pointer;
-}
-    
-.map-region.active {
-    transform: scale(1.3);
-    transition: var(--transition);
-}
 
 .map-marker {
     fill: var(--secondary);

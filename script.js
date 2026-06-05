@@ -57,7 +57,6 @@ const faqs = [
 ];
 
 // Lógica de Controle do Mapa Interativo
-const regions = document.querySelectorAll('.map-region');
 const markers = document.querySelectorAll('.map-marker');
 const placeholder = document.getElementById('panel-placeholder');
 const content = document.getElementById('panel-content');
