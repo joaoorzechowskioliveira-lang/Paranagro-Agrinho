@@ -41,10 +41,8 @@ const imagens = [
     {
         src: './img/campo1.png',
         alt: 'Campo de soja no Paraná',
-        title: 'Campo de soja',
-        description: 'A soja é um dos mais importantes produtos que o Paraná produz.'
-
-
+        description: 'A soja é um dos mais importantes produtos que o Paraná produz.',
+        autor: 'Campo de Soja'
      },
     { texto: "Nossa integração cooperativa no oeste paranaense nos permite competir no topo do mercado europeu.", autor: "Mariana Schmidt, Produtora de Grãos e Associada" },
     { texto: "A infraestrutura logística moderna e o suporte de inteligência do estado blindam nossa competitividade.", autor: "Carlos Mendes, Investidor do Agro Internacional" }
