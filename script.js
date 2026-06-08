@@ -40,12 +40,19 @@ const mapaDados = {
 const imagens = [
     {
         src: './img/campo1.png',
-        alt: 'Campo de soja no Paraná',
-        description: 'A soja é um dos mais importantes produtos que o Paraná produz.',
-        autor: 'Campo de Soja'
+        description: 'Campo de soja no Paraná.',
+        alt: 'Campo de soja.'
      },
-    { texto: "Nossa integração cooperativa no oeste paranaense nos permite competir no topo do mercado europeu.", autor: "Mariana Schmidt, Produtora de Grãos e Associada" },
-    { texto: "A infraestrutura logística moderna e o suporte de inteligência do estado blindam nossa competitividade.", autor: "Carlos Mendes, Investidor do Agro Internacional" }
+    { 
+        src: './img/campo2.png',
+        description: 'Campo de soja no Paraná',
+        alt: 'Outro campo de soja no Paraná'
+    },
+    { 
+        src: './img/frutas.png',
+        description: 'Caminhão carregado de tomates',
+        alt: 'Caminhão carregando tomates'
+     }
 ];
 
 const faqs = [
@@ -104,7 +111,7 @@ let carouselIndex = 0;
 imagens.forEach(d => {
     const item = document.createElement('div');
     item.className = 'carousel-item';
-    item.innerHTML = `<p class="carousel-quote">"${d.texto}"</p><p class="carousel-author">— ${d.autor}</p>`;
+    item.innerHTML = `<img class="carousel-quote">"${d.texto}"</p><p class="carousel-author">— ${d.autor}</p>`;
     track.appendChild(item);
 });
 
