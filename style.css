@@ -413,15 +413,12 @@ body.high-contrast a, body.high-contrast button {
     text-align: center;
 }
 
-.carousel-quote {
-    font-size: 1.2rem;
-    font-style: italic;
-    font-weight: 600;
-    color: var(--secondary);
-    margin-bottom: 20px;
+.carousel-image {
+    max-width: 100%;
+    height: auto;
 }
 
-.carousel-author {
+.carousel-description {
     font-weight: 700;
     color: var(--primary);
 }

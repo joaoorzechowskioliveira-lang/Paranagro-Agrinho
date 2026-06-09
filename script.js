@@ -111,7 +111,7 @@ let carouselIndex = 0;
 imagens.forEach(d => {
     const item = document.createElement('div');
     item.className = 'carousel-item';
-    item.innerHTML = `<img class="carousel-quote">"${d.texto}"</p><p class="carousel-author">— ${d.autor}</p>`;
+    item.innerHTML = `<img class="carousel-quote">"${d.imagem}"</p><p class="carousel-description">— ${d.autor}</p>`;
     track.appendChild(item);
 });
 
