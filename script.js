@@ -90,13 +90,6 @@ function atualizarPainel(idRegiao) {
     }
 }
 
-regions.forEach(el => {
-    el.addEventListener('click', () => {
-        const id = el.id.replace('region-', '');
-        atualizarPainel(id);
-    });
-});
-
 markers.forEach(el => {
     el.addEventListener('click', () => {
         const id = el.getAttribute('data-region');
