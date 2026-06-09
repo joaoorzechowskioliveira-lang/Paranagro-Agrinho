@@ -111,8 +111,9 @@ let carouselIndex = 0;
 imagens.forEach(d => {
     const item = document.createElement('div');
     item.className = 'carousel-item';
-    item.innerHTML = `<img class="carousel-quote">"${d.imagem}"</p><p class="carousel-description">— ${d.autor}</p>`;
-    track.appendChild(item);
+    item.innerHTML = `<img src="${d.src}" alt="${d.alt}" class="carousel-img">
+    <p class="carousel-caption">${d.description}</p>
+    <p class="carousel-author">— ${d.autor}</p>`
 });
 
 function moverCarrossel() {
